@@ -1,0 +1,16 @@
+standard: "AI长期协作工程规范"
+standardVersion: "1.0"
+projectCompatibility: ">=1.0"
+project: "comment-mock"
+standard_entry: "D:/AAA PROJECT/real-vibecoding-harries/操作手册/首次打开统一流程.md"
+authority:
+  app: "index.html"
+  state: "memory/current-state.md"
+  handoff: "memory/"
+workflow:
+  single_file_source: true
+  require_browser_smoke_test: true
+  require_json_import_export_check: true
+security:
+  no_backend: true
+  external_cdn_is_optional_for_core_features: true
